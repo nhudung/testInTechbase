@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home.spec.js has the expected html structure 1`] = `
+<div
+  class="wrapHome"
+>
+  <v-container>
+    <h1
+      class="title"
+    >
+      CORONAVIRUS COVID19
+    </h1>
+     
+    <v-row>
+      <v-col
+        cols="12"
+        sm="4"
+      >
+        <coutries-stub
+          data=""
+        />
+      </v-col>
+       
+      <v-col
+        cols="12"
+        sm="8"
+      >
+        <casesincountry-stub
+          data=""
+        />
+      </v-col>
+    </v-row>
+  </v-container>
+   
+  <div>
+    <v-dialog
+      width="500"
+    >
+      <v-card>
+        <v-card-text
+          class="style-message"
+        >
+          
+					
+				
+        </v-card-text>
+         
+        <v-card-actions>
+          <v-spacer />
+           
+          <v-btn
+            color="primary"
+            text=""
+          >
+            
+						Close
+					
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
+  </div>
+</div>
+`;

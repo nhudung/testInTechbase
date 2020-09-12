@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Coutries.spec.js has the expected html structure 1`] = `
+<div
+  class="coutries-select"
+>
+  <v-overflow-btn
+    editable=""
+    item-text="Country"
+    item-value="Slug"
+    items="[object Object]"
+    label="Viet Nam"
+  />
+</div>
+`;

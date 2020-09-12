@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CasesInCountry.spec.js has the expected html structure 1`] = `
+<div>
+  <v-data-table
+    headers="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+    items="[object Object]"
+    items-per-page="10"
+    sort-by="Date"
+    sort-desc="true"
+  />
+</div>
+`;
+
+exports[`Coutries.spec.js has the expected html structure 1`] = `
+<div
+  class="coutries-select"
+>
+  <v-overflow-btn
+    editable=""
+    item-text="Country"
+    item-value="Slug"
+    items="[object Object]"
+    label="Viet Nam"
+  />
+</div>
+`;
